@@ -1,0 +1,1 @@
+{"version":3,"sources":["someImplementation.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"someImplementation.529dd6b9.css","sourceRoot":"..","sourcesContent":["\r\n textarea {\r\n  width: 300px;\r\n  height: 150px;\r\n}\r\n#notelabel,#createNotebtn,#note_title,#deleteButton,#readId,#deleteInput   {\r\n  display: block;\r\n}"]}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8" />
+     <title>Basic implementation</title>
+     <script defer src="./index.js"></script>
+     <link rel="stylesheet" href="someImplementation.css" />
+   </head>
+
+   <body>
+     
+     <header>
+       <h1>Basic implementation</h1>
+     </header>
+    
+    
+
+       <div>
+         <label id="labelLogin" for="loginButton"
+           >Click the button to log into
+           <span id="solid_identity_provider">...provided by the JavaScript code...</span>:
+         </label>
+         <button name="loginButton" id="loginButton">Login</button>
+         <p id="labelStatus" class="labelStatus"></p>
+       </div>
+       <dl class="display">
+        <dd id="statusUpd">Status of your requests will be here</dd>
+      </dl>
+     
+       <div>
+         <form id="writeForm">
+          <label id="titlelabel" for="note_title"> Write file name: </label>
+          <input type="text" id="note_title"/>
+           <label id="notelabel" for="noteText">Write your note: </label>
+           <textarea type="text" id="noteText" name="noteText" placeholder="enter your note"></textarea>
+           <button type="submit" id="createNotebtn">
+             create a note
+           </button>
+         </form>
+       </div>
+     
+
+     <div>
+       <div class="row">
+         <form id="readForm">
+           <label id="readlabel" for="readId"
+             >enter note's name you want to read: 
+           </label>
+           <input id="readId" name="readId"/>
+           <button type="submit" name="btnRead" id="readButton">
+             Read note
+           </button>
+         </form>
+    
+      <textarea id="output"  placeholder="text from the note that you want to read will appear here">
+      </textarea>
+      </div>
+      <div>
+        <form id="deleteForm">
+          <label id="deletelabel" for="deleteInput"
+             >enter note's name that you want to delete:
+           </label>
+        <input id ="deleteInput" name="deleteInput"/>
+        <button type = "submit" id = "deleteButton">
+            delete note
+        </button>
+      </form>
+      </div>
+   </body>
+ </html>

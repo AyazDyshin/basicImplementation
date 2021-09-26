@@ -1,0 +1,1 @@
+{"version":3,"sources":["my-demo.css"],"names":[],"mappings":"AACC,SACC,WAAY,CACZ,YACF,CACA,yEACE,aACF","file":"my-demo.8528d456.css","sourceRoot":"..","sourcesContent":["\r\n textarea {\r\n  width: 300px;\r\n  height: 150px;\r\n}\r\n#notelabel,#createNotebtn,#note_title,#deleteButton,#readId,#deleteInput   {\r\n  display: block;\r\n}"]}
