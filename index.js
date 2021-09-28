@@ -2,9 +2,9 @@ import {
   getSolidDataset,
   overwriteFile,
   getFile,
-} from "/@babel/@inrupt/solid-client";
-import { Session } from "/@babel/@inrupt/solid-client-authn-browser";
-import { deleteFile } from "/@babel/@inrupt/solid-client";
+} from "@inrupt/solid-client";
+import { Session } from "@inrupt/solid-client-authn-browser";
+import { deleteFile } from "@inrupt/solid-client";
 
 const SOLID_IDENTITY_PROVIDER = "https://solidcommunity.net";
 document.getElementById(
